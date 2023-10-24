@@ -12,6 +12,7 @@ struct RsyncerApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .handlesExternalEvents(preferring: ["*"], allowing: ["*"])
         }
     }
 }

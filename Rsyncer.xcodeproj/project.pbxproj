@@ -7,44 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7150F0D02ADF241A0015861E /* Volume Mount.aif in Resources */ = {isa = PBXBuildFile; fileRef = 7150F0CF2ADF22A30015861E /* Volume Mount.aif */; };
+		7150F0D32ADF253C0015861E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7150F0D22ADF253B0015861E /* AVFoundation.framework */; };
 		716329752ADDAF1000D77CF2 /* RsyncerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716329742ADDAF1000D77CF2 /* RsyncerApp.swift */; };
 		716329772ADDAF1000D77CF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716329762ADDAF1000D77CF2 /* ContentView.swift */; };
 		716329792ADDAF1100D77CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 716329782ADDAF1100D77CF2 /* Assets.xcassets */; };
 		7163297C2ADDAF1100D77CF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7163297B2ADDAF1100D77CF2 /* Preview Assets.xcassets */; };
-		716329872ADDAF1100D77CF2 /* RsyncerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716329862ADDAF1100D77CF2 /* RsyncerTests.swift */; };
-		716329912ADDAF1100D77CF2 /* RsyncerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716329902ADDAF1100D77CF2 /* RsyncerUITests.swift */; };
-		716329932ADDAF1100D77CF2 /* RsyncerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716329922ADDAF1100D77CF2 /* RsyncerUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		716329832ADDAF1100D77CF2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 716329692ADDAF1000D77CF2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 716329702ADDAF1000D77CF2;
-			remoteInfo = Rsyncer;
-		};
-		7163298D2ADDAF1100D77CF2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 716329692ADDAF1000D77CF2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 716329702ADDAF1000D77CF2;
-			remoteInfo = Rsyncer;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		7150F0CF2ADF22A30015861E /* Volume Mount.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Volume Mount.aif"; sourceTree = "<group>"; };
+		7150F0D22ADF253B0015861E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7150F0D42AE82CD10015861E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7150F0D52AE83CFF0015861E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		716329712ADDAF1000D77CF2 /* Rsyncer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rsyncer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		716329742ADDAF1000D77CF2 /* RsyncerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RsyncerApp.swift; sourceTree = "<group>"; };
 		716329762ADDAF1000D77CF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		716329782ADDAF1100D77CF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7163297B2ADDAF1100D77CF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7163297D2ADDAF1100D77CF2 /* Rsyncer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rsyncer.entitlements; sourceTree = "<group>"; };
-		716329822ADDAF1100D77CF2 /* RsyncerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RsyncerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		716329862ADDAF1100D77CF2 /* RsyncerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RsyncerTests.swift; sourceTree = "<group>"; };
-		7163298C2ADDAF1100D77CF2 /* RsyncerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RsyncerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		716329902ADDAF1100D77CF2 /* RsyncerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RsyncerUITests.swift; sourceTree = "<group>"; };
-		716329922ADDAF1100D77CF2 /* RsyncerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RsyncerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,33 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7163297F2ADDAF1100D77CF2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		716329892ADDAF1100D77CF2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				7150F0D32ADF253C0015861E /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7150F0D12ADF253B0015861E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7150F0D22ADF253B0015861E /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		716329682ADDAF1000D77CF2 = {
 			isa = PBXGroup;
 			children = (
+				7150F0D52AE83CFF0015861E /* README.md */,
 				716329732ADDAF1000D77CF2 /* Rsyncer */,
-				716329852ADDAF1100D77CF2 /* RsyncerTests */,
-				7163298F2ADDAF1100D77CF2 /* RsyncerUITests */,
 				716329722ADDAF1000D77CF2 /* Products */,
+				7150F0D12ADF253B0015861E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,8 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				716329712ADDAF1000D77CF2 /* Rsyncer.app */,
-				716329822ADDAF1100D77CF2 /* RsyncerTests.xctest */,
-				7163298C2ADDAF1100D77CF2 /* RsyncerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +69,8 @@
 		716329732ADDAF1000D77CF2 /* Rsyncer */ = {
 			isa = PBXGroup;
 			children = (
+				7150F0D42AE82CD10015861E /* Info.plist */,
+				7150F0CF2ADF22A30015861E /* Volume Mount.aif */,
 				716329742ADDAF1000D77CF2 /* RsyncerApp.swift */,
 				716329762ADDAF1000D77CF2 /* ContentView.swift */,
 				716329782ADDAF1100D77CF2 /* Assets.xcassets */,
@@ -110,23 +86,6 @@
 				7163297B2ADDAF1100D77CF2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		716329852ADDAF1100D77CF2 /* RsyncerTests */ = {
-			isa = PBXGroup;
-			children = (
-				716329862ADDAF1100D77CF2 /* RsyncerTests.swift */,
-			);
-			path = RsyncerTests;
-			sourceTree = "<group>";
-		};
-		7163298F2ADDAF1100D77CF2 /* RsyncerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				716329902ADDAF1100D77CF2 /* RsyncerUITests.swift */,
-				716329922ADDAF1100D77CF2 /* RsyncerUITestsLaunchTests.swift */,
-			);
-			path = RsyncerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,42 +108,6 @@
 			productReference = 716329712ADDAF1000D77CF2 /* Rsyncer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		716329812ADDAF1100D77CF2 /* RsyncerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 716329992ADDAF1100D77CF2 /* Build configuration list for PBXNativeTarget "RsyncerTests" */;
-			buildPhases = (
-				7163297E2ADDAF1100D77CF2 /* Sources */,
-				7163297F2ADDAF1100D77CF2 /* Frameworks */,
-				716329802ADDAF1100D77CF2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				716329842ADDAF1100D77CF2 /* PBXTargetDependency */,
-			);
-			name = RsyncerTests;
-			productName = RsyncerTests;
-			productReference = 716329822ADDAF1100D77CF2 /* RsyncerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		7163298B2ADDAF1100D77CF2 /* RsyncerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7163299C2ADDAF1100D77CF2 /* Build configuration list for PBXNativeTarget "RsyncerUITests" */;
-			buildPhases = (
-				716329882ADDAF1100D77CF2 /* Sources */,
-				716329892ADDAF1100D77CF2 /* Frameworks */,
-				7163298A2ADDAF1100D77CF2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7163298E2ADDAF1100D77CF2 /* PBXTargetDependency */,
-			);
-			name = RsyncerUITests;
-			productName = RsyncerUITests;
-			productReference = 7163298C2ADDAF1100D77CF2 /* RsyncerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,14 +120,6 @@
 				TargetAttributes = {
 					716329702ADDAF1000D77CF2 = {
 						CreatedOnToolsVersion = 15.0;
-					};
-					716329812ADDAF1100D77CF2 = {
-						CreatedOnToolsVersion = 15.0;
-						TestTargetID = 716329702ADDAF1000D77CF2;
-					};
-					7163298B2ADDAF1100D77CF2 = {
-						CreatedOnToolsVersion = 15.0;
-						TestTargetID = 716329702ADDAF1000D77CF2;
 					};
 				};
 			};
@@ -222,8 +137,6 @@
 			projectRoot = "";
 			targets = (
 				716329702ADDAF1000D77CF2 /* Rsyncer */,
-				716329812ADDAF1100D77CF2 /* RsyncerTests */,
-				7163298B2ADDAF1100D77CF2 /* RsyncerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,22 +146,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7150F0D02ADF241A0015861E /* Volume Mount.aif in Resources */,
 				7163297C2ADDAF1100D77CF2 /* Preview Assets.xcassets in Resources */,
 				716329792ADDAF1100D77CF2 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		716329802ADDAF1100D77CF2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7163298A2ADDAF1100D77CF2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,37 +164,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7163297E2ADDAF1100D77CF2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				716329872ADDAF1100D77CF2 /* RsyncerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		716329882ADDAF1100D77CF2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				716329912ADDAF1100D77CF2 /* RsyncerUITests.swift in Sources */,
-				716329932ADDAF1100D77CF2 /* RsyncerUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		716329842ADDAF1100D77CF2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 716329702ADDAF1000D77CF2 /* Rsyncer */;
-			targetProxy = 716329832ADDAF1100D77CF2 /* PBXContainerItemProxy */;
-		};
-		7163298E2ADDAF1100D77CF2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 716329702ADDAF1000D77CF2 /* Rsyncer */;
-			targetProxy = 7163298D2ADDAF1100D77CF2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		716329942ADDAF1100D77CF2 /* Debug */ = {
@@ -420,6 +290,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = Rsyncer/Rsyncer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -429,6 +300,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rsyncer/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,6 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = Rsyncer/Rsyncer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -456,6 +329,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rsyncer/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,78 +340,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		7163299A2ADDAF1100D77CF2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = LF6TKAV2RK;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.commithash.RsyncerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rsyncer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rsyncer";
-			};
-			name = Debug;
-		};
-		7163299B2ADDAF1100D77CF2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = LF6TKAV2RK;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.commithash.RsyncerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rsyncer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rsyncer";
-			};
-			name = Release;
-		};
-		7163299D2ADDAF1100D77CF2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = LF6TKAV2RK;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.commithash.RsyncerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = Rsyncer;
-			};
-			name = Debug;
-		};
-		7163299E2ADDAF1100D77CF2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = LF6TKAV2RK;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.commithash.RsyncerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = Rsyncer;
 			};
 			name = Release;
 		};
@@ -558,24 +360,6 @@
 			buildConfigurations = (
 				716329972ADDAF1100D77CF2 /* Debug */,
 				716329982ADDAF1100D77CF2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		716329992ADDAF1100D77CF2 /* Build configuration list for PBXNativeTarget "RsyncerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7163299A2ADDAF1100D77CF2 /* Debug */,
-				7163299B2ADDAF1100D77CF2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7163299C2ADDAF1100D77CF2 /* Build configuration list for PBXNativeTarget "RsyncerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7163299D2ADDAF1100D77CF2 /* Debug */,
-				7163299E2ADDAF1100D77CF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
