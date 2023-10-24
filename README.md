@@ -1,10 +1,10 @@
 #  Rsyncer
 
-![RsyncerDock](RsyncerDock.png)
+<p align="center">
+  <img src="https://github.com/depsypher/Rsyncer/blob/main/RsyncerDock.png" width="150" height="150" />
+</p>
 
 This simple app just does an rsync copy of any file you drop on it to the directory you've chosen.
-
-![RsyncerApp](RsyncerApp.png)
 
 ## Motivation 
 Sometime after I updated to MacOS Ventura I started noticing that videos I moved to my NAS were glitching, 
@@ -14,3 +14,4 @@ After a while I realized anything I dragged and dropped via the Finder was getti
 
 I noticed that drag and drop via the Finder using samba under the hood caused the problem somewhat reliably (for large files), but copying via rsync in the terminal never did any file corruption. So seems like a bug in samba. I tried downgrading the samba version and fiddling with it's settings, but nothing helped. So, since all I want is to be able to drag a file to my NAS and have it not be silently corrupted, that's what this app does. 
 
+<img src="https://github.com/depsypher/Rsyncer/raw/main/RsyncerApp.png" />
