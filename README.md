@@ -1,6 +1,10 @@
 #  Rsyncer
 
+![RsyncerDock](RsyncerDock.png)
+
 This simple app just does an rsync copy of any file you drop on it to the directory you've chosen.
+
+![RsyncerApp](RsyncerApp.png)
 
 ## Motivation 
 Sometime after I updated to MacOS Ventura I started noticing that videos I moved to my NAS were glitching, 
