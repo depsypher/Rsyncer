@@ -52,23 +52,31 @@ struct ContentView: View {
         .frame(maxWidth: .infinity)
         .padding()
         .dropDestination(for: URL.self) { items, location in
-            drop(items: items)
+            drop(items)
             return true
         }
         .onOpenURL(perform: { url in
-            drop(items: [url])
+            drop([url])
          })
         .onAppear() {
             updateDirContents()
         }
     }
     
-    func drop(items: [URL]) {
+    func drop(_ items: [URL]) {
         items.forEach {
+            var from = $0.path().removingPercentEncoding!
+
+            // when rsyncing a directory, move the dir with its contents
+            if from.hasSuffix("/") {
+                from = String(from[from.startIndex..<from.lastIndex(of: "/")!])
+            }
+
             let task = Process()
             task.launchPath = "/usr/bin/rsync"
-            task.arguments = [$0.path().removingPercentEncoding!, path.removingPercentEncoding!]
-            
+            task.arguments = ["-a", from, path.removingPercentEncoding!]
+
+            print("rsync from: \(from) to: \(path.removingPercentEncoding!)")
             do {
                 try task.run()
             } catch let error {
